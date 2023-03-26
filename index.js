@@ -51,8 +51,8 @@ const paint = async (
 };
 
 const dy = dean.length / PEOPLE;
-const X = 46;
-const Y = 27;
+const X = 99;
+const Y = 99;
 paint(
   dean,
   WAIT_BETWEEN_MS,
