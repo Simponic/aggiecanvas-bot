@@ -4,7 +4,7 @@ import dean from "./dean.js";
 const WAIT_BETWEEN_MS = 200;
 const BASE = "http://aggiecanvas.com";
 const UPDATE_PATH = "/api/update";
-const PEOPLE = 4;
+const PEOPLE = 5;
 const PERSON = 0;
 
 const TRANS_COLORS = ["#5bcefa", "#f5a9b8", "#ffffff", "#f5a9b8", "#5bcefa"];
