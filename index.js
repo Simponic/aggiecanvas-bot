@@ -34,8 +34,8 @@ const paint = async (
   start_y,
   end_x,
   end_y,
-  start_x_pos = 0,
-  start_y_pos = 0
+  start_x_pos,
+  start_y_pos
 ) => {
   for (let y = start_y; y < end_x; ++y)
     for (let x = start_x; x < end_y; ++x)
@@ -47,7 +47,7 @@ const paint = async (
           x + start_x_pos,
           color_arr[y][x]
         );
-      }).then((color) => place(y + start_y, x + start_x, color));
+      }).then((color) => place(y + start_y_pos, x + start_x_pos, color));
 };
 
 const dy = dean.length / PEOPLE;
