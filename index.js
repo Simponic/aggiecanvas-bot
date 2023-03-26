@@ -37,8 +37,8 @@ const paint = async (
   start_x_pos,
   start_y_pos
 ) => {
-  for (let y = start_y; y < end_x; ++y)
-    for (let x = start_x; x < end_y; ++x)
+  for (let y = start_y; y < end_y; ++y)
+    for (let x = start_x; x < end_x; ++x)
       await new Promise((res, rej) => {
         setTimeout(() => res(color_arr[y][x]), time_between);
         console.log(
